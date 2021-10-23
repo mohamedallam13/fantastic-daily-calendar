@@ -27,7 +27,9 @@ textarea {
 
 .time-block {
   text-align: center;
-  border-radius: 15px;
+  border-top: dotted black;
+  text-align: right;
+  border-top-left-radius: 15px;
 }
 
 .row {
@@ -62,10 +64,23 @@ textarea {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  line-height: 70px;
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.05s ease-in-out;
+  cursor: pointer;
+}
+
+.description:hover {
+  cursor: pointer;
+}
+
+.description:active{
+  border: blue solid thick;
 }
