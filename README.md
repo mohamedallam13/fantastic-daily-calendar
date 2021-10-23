@@ -28,7 +28,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-A web browser.
+* jQuery resources
+* Bootstrap resources
 
 ### Installation
 
